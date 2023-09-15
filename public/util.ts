@@ -11,6 +11,7 @@ const operations = [
     method: "POST",
     fields: { content: "textarea" },
   },
+  // TODO: Add more operations here.
 ];
 
 const API_URL = "http://localhost:3000";

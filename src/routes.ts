@@ -10,6 +10,8 @@ class Routes {
   async postJoke(content: string) {
     return { msg: "Created a new joke.", joke: content };
   }
+
+  // TODO: Add more routes here.
 }
 
 export default getExpressRouter(new Routes());
