@@ -1,63 +1,15 @@
 const operations = [
   {
-    name: "Create User",
-    endpoint: "/api/users",
-    method: "POST",
-    fields: { username: "input", password: "input" },
-  },
-  {
-    name: "Login",
-    endpoint: "/api/login",
-    method: "POST",
-    fields: { username: "input", password: "input" },
-  },
-  {
-    name: "Logout",
-    endpoint: "/api/logout",
-    method: "POST",
-    fields: {},
-  },
-  {
-    name: "Update User",
-    endpoint: "/api/users",
-    method: "PATCH",
-    fields: { update: "json" },
-  },
-  {
-    name: "Delete User",
-    endpoint: "/api/users",
-    method: "DELETE",
-    fields: {},
-  },
-  {
-    name: "Get Users (empty for all)",
-    endpoint: "/api/users",
-    method: "GET",
-    fields: { username: "input" },
-  },
-  {
-    name: "Get Posts",
-    endpoint: "/api/posts",
+    name: "Get Joke",
+    endpoint: "/api/joke",
     method: "GET",
     fields: {},
   },
   {
-    name: "Create Post",
-    endpoint: "/api/posts",
+    name: "Create Joke",
+    endpoint: "/api/joke",
     method: "POST",
     fields: { content: "textarea" },
-  },
-  {
-    name: "Update Post",
-    endpoint: "/api/posts/:id",
-    method: "PATCH",
-    fields: { id: "input", update: "json" },
-  },
-  {
-    name: "Delete Post",
-    endpoint: "/api/posts/:id",
-    method: "DELETE",
-    fields: { id: "input" },
   },
 ];
 
